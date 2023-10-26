@@ -40,8 +40,13 @@ EC2
 
 ## Pruebas
 - Pruebas en local
+
 ![local](.imgs/pruebaLocal1.png)
+
 - Pruebas en AWS
+
  ![aws](.imgs/pruebaVirtual1.png)
+
 ![aws](.imgs/pruebaVirtual1.png)
+
 - Pruebas en AWS RoundRobin

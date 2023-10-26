@@ -14,8 +14,8 @@ public class SparkWebServerRR {
 
     private static final String USER_AGENT = "Mozilla/5.0";
     private static String GET_URL = "";
-    String service1 = "http://ec2-3-87-4-92.compute-1.amazonaws.com:4567//lucasseq?value=";
-    String service2 = "http://ec2-54-243-14-141.compute-1.amazonaws.com:4567//lucasseq?value=";
+    String service1 = "http://ec2-3-82-64-83.compute-1.amazonaws.com:4567/lucasseq?value=";
+    String service2 = "http://ec2-3-82-64-83.compute-1.amazonaws.com:4567/lucasseq?value=";
     int flag = 0;
 
     public String connect(String cadena) throws IOException {

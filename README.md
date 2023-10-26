@@ -37,3 +37,11 @@ EC2
 "output": "2, 1, 3, 4, 7, 11, 18, 29, 47, 76, 123, 199, 322, 521"  
 }
 
+
+## Pruebas
+- Pruebas en local
+![local](.imgs/pruebaLocal1.png)
+- Pruebas en AWS
+ ![aws](.imgs/pruebaVirtual1.png)
+![aws](.imgs/pruebaVirtual1.png)
+- Pruebas en AWS RoundRobin

@@ -40,15 +40,20 @@ EC2
 
 ## Pruebas
 - Pruebas en local
+  
 ![pruebaLocal1](https://github.com/YeSte114/AREP_ParcialT2/assets/46783436/c36cbcd8-15b1-4b10-8f92-e84f2775a347)
+
 - Pruebas en AWS
+  
  ![pruebaVirtual1](https://github.com/YeSte114/AREP_ParcialT2/assets/46783436/bf100443-504f-4a20-bf3e-482296b40230)
+
 ![pruebaVirtual2](https://github.com/YeSte114/AREP_ParcialT2/assets/46783436/083c167f-a910-4684-a640-6095df19b470)
 
 - Pruebas en AWS RoundRobin
 
 ## Backend
 El backend de la Secuencia de Lucas se crea apartir de Spark en el cual reciba los endpoints "/lucasseq?value={}". La respuesta de este listener es en formato JSON para que el frontend lo pueda entender e imprimir.
+
 ![spark](https://github.com/YeSte114/AREP_ParcialT2/assets/46783436/2f3949c0-270a-4910-a9b3-c7e6662eba30)
 
 
@@ -63,6 +68,7 @@ La secuencia de Lucas se calcula de la siguiente manera :
 
 ## Funcionamiento en AWS
 La instacia corriendo en AWS.
+
 ![awsInstancia](https://github.com/YeSte114/AREP_ParcialT2/assets/46783436/1d45ed52-30b6-4579-bdcb-a84361f59953)
 
 ## Video
@@ -70,7 +76,7 @@ Video mostrando instancia corriendo, la instancia esta en ejecución y de como n
 
 Puedes conectarte a ella mediante: [ec2-3-82-64-83.compute-1.amazonaws.com:4567/lucasseq?value=23](http://ec2-3-82-64-83.compute-1.amazonaws.com:4567/lucasseq?value=23)
 
-Video: 
+Video: https://drive.google.com/file/d/1u6QMIgKNui7lgQ8w4e4Zx4GHSh5MZzjK/view?usp=drivesdk
 
 ## Autor
 Yeison Steven Barreto

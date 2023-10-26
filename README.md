@@ -40,13 +40,34 @@ EC2
 
 ## Pruebas
 - Pruebas en local
-
 ![local](.imgs/pruebaLocal1.png)
-
 - Pruebas en AWS
-
  ![aws](.imgs/pruebaVirtual1.png)
-
 ![aws](.imgs/pruebaVirtual1.png)
-
 - Pruebas en AWS RoundRobin
+
+## Backend
+El backend de la Secuencia de Lucas se crea apartir de Spark en el cual reciba los endpoints "/lucasseq?value={}". La respuesta de este listener es en formato JSON para que el frontend lo pueda entender e imprimir.
+![aws](.imgs/spark.png)
+
+## Función de la Secuencia de Lucas
+La secuencia de Lucas se calcula de la siguiente manera :  
+-   L(0) = 2  
+-   L(1) = 1
+-   L(n) = L(n−1) + L(n−2) = , para un  n≥2
+
+![aws](.imgs/lucas.png)
+
+## Funcionamiento en AWS
+La instacia corriendo en AWS.
+![aws](.imgs/awsInstancia.png)
+
+## Video
+Video mostrando instancia corriendo, la instancia esta en ejecución y de como nos conectamos a ella:
+
+Puedes conectarte a ella mediante: [ec2-3-82-64-83.compute-1.amazonaws.com:4567/lucasseq?value=23](http://ec2-3-82-64-83.compute-1.amazonaws.com:4567/lucasseq?value=23)
+
+Video: 
+
+## Autor
+Yeison Steven Barreto
